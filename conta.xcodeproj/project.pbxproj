@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC053C9F17DD87BB005388D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC053C9E17DD87BB005388D2 /* Default.png */; };
+		EC053CA117DD87ED005388D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC053CA017DD87ED005388D2 /* Default@2x.png */; };
+		EC05F8341651FB0F00AA6004 /* Iconv1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC05F8331651FB0F00AA6004 /* Iconv1.png */; };
+		EC1429F9162B3037000D42C8 /* ayuda.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1429F7162B3037000D42C8 /* ayuda.m */; };
+		EC1429FA162B3037000D42C8 /* ayuda.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1429F8162B3037000D42C8 /* ayuda.xib */; };
+		EC1C1D551617B0DE003AA118 /* flag.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1C1D531617B0DD003AA118 /* flag.m */; };
+		EC1C1D561617B0DE003AA118 /* flag.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1C1D541617B0DD003AA118 /* flag.xib */; };
+		EC1C1D581617B10E003AA118 /* 1348957361_Mexico-Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1C1D571617B10E003AA118 /* 1348957361_Mexico-Flag.png */; };
+		EC1C1D5A1617B119003AA118 /* 1348957367_Peru-Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1C1D591617B119003AA118 /* 1348957367_Peru-Flag.png */; };
+		EC43DE59169E797F0060C7F3 /* pce.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EC43DE58169E797F0060C7F3 /* pce.sqlite */; };
+		EC4C224C1678302B003B56B3 /* 1355280987_Colombia-Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4C224B1678302B003B56B3 /* 1355280987_Colombia-Flag.png */; };
+		EC4C22501678323D003B56B3 /* Colombia.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4C224E1678323D003B56B3 /* Colombia.m */; };
+		EC4C22511678323D003B56B3 /* Colombia.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4C224F1678323D003B56B3 /* Colombia.xib */; };
+		EC4C22561678337F003B56B3 /* ColombiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4C22541678337F003B56B3 /* ColombiaViewController.m */; };
+		EC4C22571678337F003B56B3 /* ColombiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4C22551678337F003B56B3 /* ColombiaViewController.xib */; };
+		EC4C225B16783394003B56B3 /* ColombiaAyuda.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4C225916783393003B56B3 /* ColombiaAyuda.m */; };
+		EC4C225C16783394003B56B3 /* ColombiaAyuda.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4C225A16783393003B56B3 /* ColombiaAyuda.xib */; };
+		EC4C2260167833B2003B56B3 /* ColombiaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4C225E167833B2003B56B3 /* ColombiaSearchViewController.m */; };
+		EC4C2261167833B2003B56B3 /* ColombiaSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4C225F167833B2003B56B3 /* ColombiaSearchViewController.xib */; };
+		EC682CCE169FC2750040927D /* DetailViewTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC682CCD169FC2750040927D /* DetailViewTextController.m */; };
+		ECD2ABEA1654B2E300FD59B5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2ABE91654B2E300FD59B5 /* DetailViewController.m */; };
+		ECD7A1C0164732C100A7A043 /* tartan.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD7A1BF164732C100A7A043 /* tartan.png */; };
+		ECD950831605005500E3B97F /* helper.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD950811605005500E3B97F /* helper.m */; };
+		ECD950841605005500E3B97F /* helper.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD950821605005500E3B97F /* helper.xib */; };
+		ECD9508716053A9E00E3B97F /* 1347748612_list_bullets.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD9508616053A9E00E3B97F /* 1347748612_list_bullets.png */; };
+		ECD9508916053C0300E3B97F /* 1347748965_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD9508816053C0200E3B97F /* 1347748965_zoom.png */; };
+		ECD9508B16053CC800E3B97F /* 1347749166_help.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD9508A16053CC800E3B97F /* 1347749166_help.png */; };
+		ECDBD9D716A2562000D2D509 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ECDBD9D616A2562000D2D509 /* en.lproj */; };
+		ECDFD9E4165C8F6F0050FD6D /* iconoappv2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDFD9E3165C8F6F0050FD6D /* iconoappv2.png */; };
+		ECDFD9E5165C904B0050FD6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB77944163C718A00C359C4 /* Default-568h@2x.png */; };
+		ECE0FA6F164248A200FDC2D8 /* MexicoSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0FA6D164248A200FDC2D8 /* MexicoSearchViewController.m */; };
+		ECE0FA70164248A200FDC2D8 /* MexicoSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE0FA6E164248A200FDC2D8 /* MexicoSearchViewController.xib */; };
+		ECE0FA741642575300FDC2D8 /* MexicoAyuda.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0FA721642575300FDC2D8 /* MexicoAyuda.m */; };
+		ECE0FA751642575300FDC2D8 /* MexicoAyuda.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE0FA731642575300FDC2D8 /* MexicoAyuda.xib */; };
+		ECE1BECD16A20CCC003471A0 /* 1358047643_statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE1BECC16A20CCC003471A0 /* 1358047643_statistics.png */; };
+		ECE239C1161165F50040AF70 /* 1348546120_calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE239C0161165F50040AF70 /* 1348546120_calculator.png */; };
+		ECE239C61611676A0040AF70 /* 1348546516_search.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE239C51611676A0040AF70 /* 1348546516_search.png */; };
+		ECE3B64616A239090008242A /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3B64516A239090008242A /* Appirater.m */; };
+		ECE3B64A16A23C220008242A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE3B64916A23C220008242A /* StoreKit.framework */; };
+		ECE3B64C16A23D720008242A /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ECE3B64B16A23D720008242A /* es.lproj */; };
+		ECE3B64E16A23DEE0008242A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE3B64D16A23DEE0008242A /* SystemConfiguration.framework */; };
+		ECE5D5FD164F1F0E00B76B7D /* pattern_062.gif in Resources */ = {isa = PBXBuildFile; fileRef = ECE5D5FC164F1F0E00B76B7D /* pattern_062.gif */; };
+		ECE6EBDB1654A870005B2911 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE6EBDA1654A870005B2911 /* RootViewController.xib */; };
+		ECE813BF16017CA600AA2133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE813BE16017CA600AA2133 /* UIKit.framework */; };
+		ECE813C116017CA600AA2133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE813C016017CA600AA2133 /* Foundation.framework */; };
+		ECE813C316017CA600AA2133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE813C216017CA600AA2133 /* CoreGraphics.framework */; };
+		ECE813C916017CA600AA2133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE813C716017CA600AA2133 /* InfoPlist.strings */; };
+		ECE813CB16017CA600AA2133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE813CA16017CA600AA2133 /* main.m */; };
+		ECE813CF16017CA600AA2133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE813CE16017CA600AA2133 /* AppDelegate.m */; };
+		ECE813DF16017E3800AA2133 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE813DD16017E3800AA2133 /* RootViewController.m */; };
+		ECE813E416017F3D00AA2133 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE813E216017F3D00AA2133 /* OverlayViewController.m */; };
+		ECE813E516017F3D00AA2133 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE813E316017F3D00AA2133 /* OverlayViewController.xib */; };
+		ECE813EA160180A300AA2133 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE813E8160180A300AA2133 /* DetailViewController.xib */; };
+		ECE813EC1601810A00AA2133 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE813EB1601810A00AA2133 /* MainWindow.xib */; };
+		ECE813F216019E4000AA2133 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE813F116019E4000AA2133 /* libsqlite3.0.dylib */; };
+		ECF2DC35160EBFEE00F784BA /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF2DC33160EBFEE00F784BA /* SearchViewController.m */; };
+		ECF2DC36160EBFEE00F784BA /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF2DC34160EBFEE00F784BA /* SearchViewController.xib */; };
+		ECF50E491640E71600143DBA /* MexicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF50E471640E71600143DBA /* MexicoViewController.m */; };
+		ECF50E4A1640E71600143DBA /* MexicoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF50E481640E71600143DBA /* MexicoViewController.xib */; };
+		ECF50E4F1640ECDA00143DBA /* Mexico.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF50E4D1640ECDA00143DBA /* Mexico.m */; };
+		ECF50E501640ECDA00143DBA /* Mexico.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF50E4E1640ECDA00143DBA /* Mexico.xib */; };
+		ECF6B9F416155F4000294A04 /* 1348806556_info.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6B9F316155F4000294A04 /* 1348806556_info.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC053C9E17DD87BB005388D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC053CA017DD87ED005388D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC05F8331651FB0F00AA6004 /* Iconv1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Iconv1.png; path = ../Iconv1.png; sourceTree = "<group>"; };
+		EC1429F6162B3037000D42C8 /* ayuda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ayuda.h; sourceTree = "<group>"; };
+		EC1429F7162B3037000D42C8 /* ayuda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ayuda.m; sourceTree = "<group>"; };
+		EC1429F8162B3037000D42C8 /* ayuda.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ayuda.xib; sourceTree = "<group>"; };
+		EC142A0D162B6C69000D42C8 /* DetailViewTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewTextController.h; sourceTree = "<group>"; };
+		EC1C1D521617B0DD003AA118 /* flag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flag.h; sourceTree = "<group>"; };
+		EC1C1D531617B0DD003AA118 /* flag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flag.m; sourceTree = "<group>"; };
+		EC1C1D541617B0DD003AA118 /* flag.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = flag.xib; sourceTree = "<group>"; };
+		EC1C1D571617B10E003AA118 /* 1348957361_Mexico-Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1348957361_Mexico-Flag.png"; sourceTree = "<group>"; };
+		EC1C1D591617B119003AA118 /* 1348957367_Peru-Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1348957367_Peru-Flag.png"; sourceTree = "<group>"; };
+		EC43DE58169E797F0060C7F3 /* pce.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = pce.sqlite; path = ../pce.sqlite; sourceTree = "<group>"; };
+		EC4C224B1678302B003B56B3 /* 1355280987_Colombia-Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1355280987_Colombia-Flag.png"; path = "../1355280987_Colombia-Flag.png"; sourceTree = "<group>"; };
+		EC4C224D1678323D003B56B3 /* Colombia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colombia.h; sourceTree = "<group>"; };
+		EC4C224E1678323D003B56B3 /* Colombia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colombia.m; sourceTree = "<group>"; };
+		EC4C224F1678323D003B56B3 /* Colombia.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Colombia.xib; sourceTree = "<group>"; };
+		EC4C22531678337F003B56B3 /* ColombiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColombiaViewController.h; sourceTree = "<group>"; };
+		EC4C22541678337F003B56B3 /* ColombiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColombiaViewController.m; sourceTree = "<group>"; };
+		EC4C22551678337F003B56B3 /* ColombiaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColombiaViewController.xib; sourceTree = "<group>"; };
+		EC4C225816783393003B56B3 /* ColombiaAyuda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColombiaAyuda.h; sourceTree = "<group>"; };
+		EC4C225916783393003B56B3 /* ColombiaAyuda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColombiaAyuda.m; sourceTree = "<group>"; };
+		EC4C225A16783393003B56B3 /* ColombiaAyuda.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColombiaAyuda.xib; sourceTree = "<group>"; };
+		EC4C225D167833B2003B56B3 /* ColombiaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColombiaSearchViewController.h; sourceTree = "<group>"; };
+		EC4C225E167833B2003B56B3 /* ColombiaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColombiaSearchViewController.m; sourceTree = "<group>"; };
+		EC4C225F167833B2003B56B3 /* ColombiaSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColombiaSearchViewController.xib; sourceTree = "<group>"; };
+		EC682CCD169FC2750040927D /* DetailViewTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewTextController.m; sourceTree = "<group>"; };
+		EC99225D1612E28000940B66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ECB77944163C718A00C359C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ECD2ABE81654B2E300FD59B5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		ECD2ABE91654B2E300FD59B5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		ECD7A1BF164732C100A7A043 /* tartan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tartan.png; sourceTree = "<group>"; };
+		ECD950801605005500E3B97F /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
+		ECD950811605005500E3B97F /* helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helper.m; sourceTree = "<group>"; };
+		ECD950821605005500E3B97F /* helper.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = helper.xib; sourceTree = "<group>"; };
+		ECD9508616053A9E00E3B97F /* 1347748612_list_bullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1347748612_list_bullets.png; path = ../../../../Downloads/1347748612_list_bullets.png; sourceTree = "<group>"; };
+		ECD9508816053C0200E3B97F /* 1347748965_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1347748965_zoom.png; path = ../../../../Downloads/1347748965_zoom.png; sourceTree = "<group>"; };
+		ECD9508A16053CC800E3B97F /* 1347749166_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1347749166_help.png; path = ../../../../Downloads/1347749166_help.png; sourceTree = "<group>"; };
+		ECDBD9D616A2562000D2D509 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = "../appirater-master/en.lproj"; sourceTree = "<group>"; };
+		ECDFD9E3165C8F6F0050FD6D /* iconoappv2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconoappv2.png; path = ../iconoappv2.png; sourceTree = "<group>"; };
+		ECE0FA6C164248A200FDC2D8 /* MexicoSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MexicoSearchViewController.h; sourceTree = "<group>"; };
+		ECE0FA6D164248A200FDC2D8 /* MexicoSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MexicoSearchViewController.m; sourceTree = "<group>"; };
+		ECE0FA6E164248A200FDC2D8 /* MexicoSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MexicoSearchViewController.xib; sourceTree = "<group>"; };
+		ECE0FA711642575200FDC2D8 /* MexicoAyuda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MexicoAyuda.h; sourceTree = "<group>"; };
+		ECE0FA721642575300FDC2D8 /* MexicoAyuda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MexicoAyuda.m; sourceTree = "<group>"; };
+		ECE0FA731642575300FDC2D8 /* MexicoAyuda.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MexicoAyuda.xib; sourceTree = "<group>"; };
+		ECE1BECC16A20CCC003471A0 /* 1358047643_statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1358047643_statistics.png; sourceTree = "<group>"; };
+		ECE239C0161165F50040AF70 /* 1348546120_calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1348546120_calculator.png; sourceTree = "<group>"; };
+		ECE239C51611676A0040AF70 /* 1348546516_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1348546516_search.png; sourceTree = "<group>"; };
+		ECE3B64416A239090008242A /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		ECE3B64516A239090008242A /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		ECE3B64816A239F80008242A /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+		ECE3B64916A23C220008242A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ECE3B64B16A23D720008242A /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = es.lproj; path = "../appirater-master/es.lproj"; sourceTree = "<group>"; };
+		ECE3B64D16A23DEE0008242A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ECE5D5FC164F1F0E00B76B7D /* pattern_062.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pattern_062.gif; sourceTree = "<group>"; };
+		ECE6EBDA1654A870005B2911 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		ECE813BA16017CA600AA2133 /* conta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = conta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE813BE16017CA600AA2133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECE813C016017CA600AA2133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECE813C216017CA600AA2133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECE813C616017CA600AA2133 /* conta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "conta-Info.plist"; sourceTree = "<group>"; };
+		ECE813C816017CA600AA2133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECE813CA16017CA600AA2133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE813CC16017CA600AA2133 /* conta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "conta-Prefix.pch"; sourceTree = "<group>"; };
+		ECE813CD16017CA600AA2133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECE813CE16017CA600AA2133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECE813DC16017E3800AA2133 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ECE813DD16017E3800AA2133 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ECE813E116017F3D00AA2133 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		ECE813E216017F3D00AA2133 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		ECE813E316017F3D00AA2133 /* OverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayViewController.xib; sourceTree = "<group>"; };
+		ECE813E8160180A300AA2133 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		ECE813EB1601810A00AA2133 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		ECE813F116019E4000AA2133 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		ECF2DC32160EBFEE00F784BA /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		ECF2DC33160EBFEE00F784BA /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		ECF2DC34160EBFEE00F784BA /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		ECF50E461640E71600143DBA /* MexicoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MexicoViewController.h; sourceTree = "<group>"; };
+		ECF50E471640E71600143DBA /* MexicoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MexicoViewController.m; sourceTree = "<group>"; };
+		ECF50E481640E71600143DBA /* MexicoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MexicoViewController.xib; sourceTree = "<group>"; };
+		ECF50E4C1640ECDA00143DBA /* Mexico.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mexico.h; sourceTree = "<group>"; };
+		ECF50E4D1640ECDA00143DBA /* Mexico.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mexico.m; sourceTree = "<group>"; };
+		ECF50E4E1640ECDA00143DBA /* Mexico.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mexico.xib; sourceTree = "<group>"; };
+		ECF6B9F316155F4000294A04 /* 1348806556_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1348806556_info.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE813B716017CA600AA2133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE3B64E16A23DEE0008242A /* SystemConfiguration.framework in Frameworks */,
+				ECE3B64A16A23C220008242A /* StoreKit.framework in Frameworks */,
+				ECE813BF16017CA600AA2133 /* UIKit.framework in Frameworks */,
+				ECE813C116017CA600AA2133 /* Foundation.framework in Frameworks */,
+				ECE813C316017CA600AA2133 /* CoreGraphics.framework in Frameworks */,
+				ECE813F216019E4000AA2133 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4C225216783244003B56B3 /* Colombia */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C224D1678323D003B56B3 /* Colombia.h */,
+				EC4C224E1678323D003B56B3 /* Colombia.m */,
+				EC4C224F1678323D003B56B3 /* Colombia.xib */,
+				EC4C22531678337F003B56B3 /* ColombiaViewController.h */,
+				EC4C22541678337F003B56B3 /* ColombiaViewController.m */,
+				EC4C22551678337F003B56B3 /* ColombiaViewController.xib */,
+				EC4C225816783393003B56B3 /* ColombiaAyuda.h */,
+				EC4C225916783393003B56B3 /* ColombiaAyuda.m */,
+				EC4C225A16783393003B56B3 /* ColombiaAyuda.xib */,
+				EC4C225D167833B2003B56B3 /* ColombiaSearchViewController.h */,
+				EC4C225E167833B2003B56B3 /* ColombiaSearchViewController.m */,
+				EC4C225F167833B2003B56B3 /* ColombiaSearchViewController.xib */,
+			);
+			name = Colombia;
+			sourceTree = "<group>";
+		};
+		ECE239C7161169680040AF70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1BECC16A20CCC003471A0 /* 1358047643_statistics.png */,
+				EC43DE58169E797F0060C7F3 /* pce.sqlite */,
+				EC4C224B1678302B003B56B3 /* 1355280987_Colombia-Flag.png */,
+				ECDFD9E3165C8F6F0050FD6D /* iconoappv2.png */,
+				EC05F8331651FB0F00AA6004 /* Iconv1.png */,
+				ECE5D5FC164F1F0E00B76B7D /* pattern_062.gif */,
+				ECD7A1BF164732C100A7A043 /* tartan.png */,
+				ECF6B9F316155F4000294A04 /* 1348806556_info.png */,
+				EC1C1D591617B119003AA118 /* 1348957367_Peru-Flag.png */,
+				EC1C1D571617B10E003AA118 /* 1348957361_Mexico-Flag.png */,
+				EC99225D1612E28000940B66 /* Default.png */,
+				ECD9508616053A9E00E3B97F /* 1347748612_list_bullets.png */,
+				ECE239C51611676A0040AF70 /* 1348546516_search.png */,
+				ECE239C0161165F50040AF70 /* 1348546120_calculator.png */,
+				ECD9508816053C0200E3B97F /* 1347748965_zoom.png */,
+				ECD9508A16053CC800E3B97F /* 1347749166_help.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ECE813AF16017CA600AA2133 = {
+			isa = PBXGroup;
+			children = (
+				EC053CA017DD87ED005388D2 /* Default@2x.png */,
+				EC053C9E17DD87BB005388D2 /* Default.png */,
+				ECDBD9D616A2562000D2D509 /* en.lproj */,
+				ECE3B64B16A23D720008242A /* es.lproj */,
+				ECE813C416017CA600AA2133 /* conta */,
+				ECB77944163C718A00C359C4 /* Default-568h@2x.png */,
+				ECE813BD16017CA600AA2133 /* Frameworks */,
+				ECE813BB16017CA600AA2133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE813BB16017CA600AA2133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE813BA16017CA600AA2133 /* conta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE813BD16017CA600AA2133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE3B64D16A23DEE0008242A /* SystemConfiguration.framework */,
+				ECE3B64916A23C220008242A /* StoreKit.framework */,
+				ECE813F116019E4000AA2133 /* libsqlite3.0.dylib */,
+				ECE813BE16017CA600AA2133 /* UIKit.framework */,
+				ECE813C016017CA600AA2133 /* Foundation.framework */,
+				ECE813C216017CA600AA2133 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE813C416017CA600AA2133 /* conta */ = {
+			isa = PBXGroup;
+			children = (
+				ECE813CD16017CA600AA2133 /* AppDelegate.h */,
+				ECE813CE16017CA600AA2133 /* AppDelegate.m */,
+				ECD2ABE81654B2E300FD59B5 /* DetailViewController.h */,
+				EC142A0D162B6C69000D42C8 /* DetailViewTextController.h */,
+				EC682CCD169FC2750040927D /* DetailViewTextController.m */,
+				EC1C1D521617B0DD003AA118 /* flag.h */,
+				ECE813E116017F3D00AA2133 /* OverlayViewController.h */,
+				ECD2ABE91654B2E300FD59B5 /* DetailViewController.m */,
+				EC1C1D531617B0DD003AA118 /* flag.m */,
+				ECE3B64416A239090008242A /* Appirater.h */,
+				ECE3B64516A239090008242A /* Appirater.m */,
+				ECE3B64816A239F80008242A /* AppiraterDelegate.h */,
+				ECE813E216017F3D00AA2133 /* OverlayViewController.m */,
+				ECE813E8160180A300AA2133 /* DetailViewController.xib */,
+				EC1C1D541617B0DD003AA118 /* flag.xib */,
+				ECE813EB1601810A00AA2133 /* MainWindow.xib */,
+				ECE813E316017F3D00AA2133 /* OverlayViewController.xib */,
+				EC4C225216783244003B56B3 /* Colombia */,
+				ECF50E511640ECDF00143DBA /* Mexico */,
+				ECF50E521641012200143DBA /* Peru */,
+				ECE239C7161169680040AF70 /* Resources */,
+				ECE813C516017CA600AA2133 /* Supporting Files */,
+			);
+			path = conta;
+			sourceTree = "<group>";
+		};
+		ECE813C516017CA600AA2133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE813C616017CA600AA2133 /* conta-Info.plist */,
+				ECE813C716017CA600AA2133 /* InfoPlist.strings */,
+				ECE813CA16017CA600AA2133 /* main.m */,
+				ECE813CC16017CA600AA2133 /* conta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF50E511640ECDF00143DBA /* Mexico */ = {
+			isa = PBXGroup;
+			children = (
+				ECF50E4C1640ECDA00143DBA /* Mexico.h */,
+				ECF50E4D1640ECDA00143DBA /* Mexico.m */,
+				ECF50E4E1640ECDA00143DBA /* Mexico.xib */,
+				ECF50E461640E71600143DBA /* MexicoViewController.h */,
+				ECF50E471640E71600143DBA /* MexicoViewController.m */,
+				ECF50E481640E71600143DBA /* MexicoViewController.xib */,
+				ECE0FA711642575200FDC2D8 /* MexicoAyuda.h */,
+				ECE0FA721642575300FDC2D8 /* MexicoAyuda.m */,
+				ECE0FA731642575300FDC2D8 /* MexicoAyuda.xib */,
+				ECE0FA6C164248A200FDC2D8 /* MexicoSearchViewController.h */,
+				ECE0FA6D164248A200FDC2D8 /* MexicoSearchViewController.m */,
+				ECE0FA6E164248A200FDC2D8 /* MexicoSearchViewController.xib */,
+			);
+			name = Mexico;
+			sourceTree = "<group>";
+		};
+		ECF50E521641012200143DBA /* Peru */ = {
+			isa = PBXGroup;
+			children = (
+				EC1429F6162B3037000D42C8 /* ayuda.h */,
+				EC1429F7162B3037000D42C8 /* ayuda.m */,
+				EC1429F8162B3037000D42C8 /* ayuda.xib */,
+				ECE813DC16017E3800AA2133 /* RootViewController.h */,
+				ECE6EBDA1654A870005B2911 /* RootViewController.xib */,
+				ECE813DD16017E3800AA2133 /* RootViewController.m */,
+				ECD950801605005500E3B97F /* helper.h */,
+				ECD950811605005500E3B97F /* helper.m */,
+				ECD950821605005500E3B97F /* helper.xib */,
+				ECF2DC32160EBFEE00F784BA /* SearchViewController.h */,
+				ECF2DC33160EBFEE00F784BA /* SearchViewController.m */,
+				ECF2DC34160EBFEE00F784BA /* SearchViewController.xib */,
+			);
+			name = Peru;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE813B916017CA600AA2133 /* conta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE813D216017CA600AA2133 /* Build configuration list for PBXNativeTarget "conta" */;
+			buildPhases = (
+				ECE813B616017CA600AA2133 /* Sources */,
+				ECE813B716017CA600AA2133 /* Frameworks */,
+				ECE813B816017CA600AA2133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = conta;
+			productName = conta;
+			productReference = ECE813BA16017CA600AA2133 /* conta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE813B116017CA600AA2133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Walter Caraza Barrera";
+			};
+			buildConfigurationList = ECE813B416017CA600AA2133 /* Build configuration list for PBXProject "conta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECE813AF16017CA600AA2133;
+			productRefGroup = ECE813BB16017CA600AA2133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE813B916017CA600AA2133 /* conta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE813B816017CA600AA2133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE813C916017CA600AA2133 /* InfoPlist.strings in Resources */,
+				ECE813E516017F3D00AA2133 /* OverlayViewController.xib in Resources */,
+				ECE813EA160180A300AA2133 /* DetailViewController.xib in Resources */,
+				ECE813EC1601810A00AA2133 /* MainWindow.xib in Resources */,
+				ECD950841605005500E3B97F /* helper.xib in Resources */,
+				ECD9508716053A9E00E3B97F /* 1347748612_list_bullets.png in Resources */,
+				ECD9508916053C0300E3B97F /* 1347748965_zoom.png in Resources */,
+				ECD9508B16053CC800E3B97F /* 1347749166_help.png in Resources */,
+				ECF2DC36160EBFEE00F784BA /* SearchViewController.xib in Resources */,
+				ECE239C1161165F50040AF70 /* 1348546120_calculator.png in Resources */,
+				ECE239C61611676A0040AF70 /* 1348546516_search.png in Resources */,
+				ECF6B9F416155F4000294A04 /* 1348806556_info.png in Resources */,
+				EC1C1D561617B0DE003AA118 /* flag.xib in Resources */,
+				EC1C1D581617B10E003AA118 /* 1348957361_Mexico-Flag.png in Resources */,
+				EC1C1D5A1617B119003AA118 /* 1348957367_Peru-Flag.png in Resources */,
+				EC1429FA162B3037000D42C8 /* ayuda.xib in Resources */,
+				ECF50E4A1640E71600143DBA /* MexicoViewController.xib in Resources */,
+				ECF50E501640ECDA00143DBA /* Mexico.xib in Resources */,
+				ECE0FA70164248A200FDC2D8 /* MexicoSearchViewController.xib in Resources */,
+				ECE0FA751642575300FDC2D8 /* MexicoAyuda.xib in Resources */,
+				ECD7A1C0164732C100A7A043 /* tartan.png in Resources */,
+				ECE5D5FD164F1F0E00B76B7D /* pattern_062.gif in Resources */,
+				EC05F8341651FB0F00AA6004 /* Iconv1.png in Resources */,
+				ECE6EBDB1654A870005B2911 /* RootViewController.xib in Resources */,
+				ECDFD9E4165C8F6F0050FD6D /* iconoappv2.png in Resources */,
+				ECDFD9E5165C904B0050FD6D /* Default-568h@2x.png in Resources */,
+				EC4C224C1678302B003B56B3 /* 1355280987_Colombia-Flag.png in Resources */,
+				EC4C22511678323D003B56B3 /* Colombia.xib in Resources */,
+				EC4C22571678337F003B56B3 /* ColombiaViewController.xib in Resources */,
+				EC4C225C16783394003B56B3 /* ColombiaAyuda.xib in Resources */,
+				EC4C2261167833B2003B56B3 /* ColombiaSearchViewController.xib in Resources */,
+				EC43DE59169E797F0060C7F3 /* pce.sqlite in Resources */,
+				ECE1BECD16A20CCC003471A0 /* 1358047643_statistics.png in Resources */,
+				ECE3B64C16A23D720008242A /* es.lproj in Resources */,
+				ECDBD9D716A2562000D2D509 /* en.lproj in Resources */,
+				EC053C9F17DD87BB005388D2 /* Default.png in Resources */,
+				EC053CA117DD87ED005388D2 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE813B616017CA600AA2133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE813CB16017CA600AA2133 /* main.m in Sources */,
+				ECE813CF16017CA600AA2133 /* AppDelegate.m in Sources */,
+				ECE813DF16017E3800AA2133 /* RootViewController.m in Sources */,
+				ECE813E416017F3D00AA2133 /* OverlayViewController.m in Sources */,
+				ECD950831605005500E3B97F /* helper.m in Sources */,
+				ECF2DC35160EBFEE00F784BA /* SearchViewController.m in Sources */,
+				EC1C1D551617B0DE003AA118 /* flag.m in Sources */,
+				EC1429F9162B3037000D42C8 /* ayuda.m in Sources */,
+				ECF50E491640E71600143DBA /* MexicoViewController.m in Sources */,
+				ECF50E4F1640ECDA00143DBA /* Mexico.m in Sources */,
+				ECE0FA6F164248A200FDC2D8 /* MexicoSearchViewController.m in Sources */,
+				ECE0FA741642575300FDC2D8 /* MexicoAyuda.m in Sources */,
+				ECD2ABEA1654B2E300FD59B5 /* DetailViewController.m in Sources */,
+				EC4C22501678323D003B56B3 /* Colombia.m in Sources */,
+				EC4C22561678337F003B56B3 /* ColombiaViewController.m in Sources */,
+				EC4C225B16783394003B56B3 /* ColombiaAyuda.m in Sources */,
+				EC4C2260167833B2003B56B3 /* ColombiaSearchViewController.m in Sources */,
+				EC682CCE169FC2750040927D /* DetailViewTextController.m in Sources */,
+				ECE3B64616A239090008242A /* Appirater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECE813C716017CA600AA2133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE813C816017CA600AA2133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE813D016017CA600AA2133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECE813D116017CA600AA2133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE813D316017CA600AA2133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "conta/conta-Prefix.pch";
+				INFOPLIST_FILE = "conta/conta-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECE813D416017CA600AA2133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "conta/conta-Prefix.pch";
+				INFOPLIST_FILE = "conta/conta-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE813B416017CA600AA2133 /* Build configuration list for PBXProject "conta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE813D016017CA600AA2133 /* Debug */,
+				ECE813D116017CA600AA2133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE813D216017CA600AA2133 /* Build configuration list for PBXNativeTarget "conta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE813D316017CA600AA2133 /* Debug */,
+				ECE813D416017CA600AA2133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE813B116017CA600AA2133 /* Project object */;
+}
